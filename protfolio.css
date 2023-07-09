@@ -17,6 +17,15 @@ body {
     padding: 18px 35px;
 }
 
+.btn-primary:hover {
+    background-color: white;
+    color: black;
+}
+
+.link:hover {
+    color: #FD6E0A;
+}
+
 .section-title {
     color: #181818;
     text-align: center;
@@ -95,7 +104,7 @@ nav a {
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 50px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
