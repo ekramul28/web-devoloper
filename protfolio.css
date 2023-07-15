@@ -92,7 +92,7 @@ nav a {
     max-width: 500px;
 }
 
-.banner .profile-pic {
+.profile-pic {
     width: 500px;
 }
 
@@ -227,7 +227,115 @@ footer {
 
 .social-links-icon {
     margin-right: 30px;
+}
 
+/* mobile divise */
+.hide {
+    display: none;
+}
 
+@media screen and (max-width:576px) {
 
+    /* banner */
+    .banner {
+        flex-direction: column;
+        padding: 10px 10px 20px 20px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    /* what can i do section */
+    #what-i-do-description {
+        padding: 10px
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+    /* resume section  */
+    .resume-contaniner {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    /* footer  */
+    footer {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .footer-input {
+
+        text-align: center;
+    }
+
+    .social-links {
+        text-align: center;
+    }
+
+    /* about sectionn  */
+    .about {
+        padding: 20px;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+    }
+}
+
+/* tablet divise */
+@media screen and (min-width:567px) and (max-width:960px) {
+    .banner {
+        padding: 10px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .profile-pic {
+        width: 300px;
+    }
+
+    nav {
+        margin: 20px;
+    }
+
+    /* skill  */
+    .skills-container {
+        flex-direction: column;
+    }
+
+    /* resume section  */
+    .resume-contaniner {
+        padding: 60px;
+    }
+
+    /* footer section  */
+    footer {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .footer-input {
+
+        text-align: center;
+    }
+
+    .social-links {
+        text-align: center;
+    }
+
+    /* about sectionn  */
+    .about {
+        padding: 40px;
+    }
 }
